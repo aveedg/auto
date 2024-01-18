@@ -7,13 +7,13 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://aveedsauto.com/blog</loc>
+        <loc>https://aveedsauto.com/blog/index.html</loc>
         <lastmod>2024-01-18</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://aveedsauto.com/blog/category</loc>
+        <loc>https://aveedsauto.com/blog/category/index.html</loc>
         <lastmod>2024-01-18</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
@@ -31,7 +31,7 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://aveedsauto.com/blog/tags</loc>
+        <loc>https://aveedsauto.com/blog/tags/index.html</loc>
         <lastmod>2024-01-18</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
