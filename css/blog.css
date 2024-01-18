@@ -1,0 +1,1 @@
+.checkList li{list-style:none}.checkList li:before{content:"\f058";font-family:FontAwesome;display:inline-block;margin-left:.5rem;margin-right:.8rem;width:1rem;color:green}@media (max-width:600px){.checkList li:before{margin-left:-1.2rem}.blogTitle{line-height:2.2rem}}
