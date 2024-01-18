@@ -1,2 +1,1 @@
 Sitemap: https://aveedsauto.com/sitemap.xml
-Disallow: /settings.php
