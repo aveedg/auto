@@ -359,6 +359,9 @@
 										<li>
 											<a href="/blog/category/carwash.html">Car Wash</a>
 										</li>
+										<li>
+											<a href="/blog/category/paintProtection.html">Paint Protection</a>
+										</li>
 									</ul>
 								</div>
 
@@ -367,6 +370,9 @@
 									<ul class="list-unstyled pl-0 d-flex flex-wrap fontAlter">
 										<li>
 											<a href="/blog/tags/carwash.html">Car Wash</a>
+										</li>
+										<li>
+											<a href="/blog/tags/vehicleProtection.html">Vehicle Protection</a>
 										</li>
 									</ul>
 								</div>
@@ -452,10 +458,6 @@
 			let sidebar = $('.sidebar').offset().top;
 
 			$(document).on("scroll", function() {
-				console.log(sidebar + ' sdiebar');
-				console.log($(document).scrollTop()) + ' document';
-				console.log($('.tags').offset().top + ' widget');
-
 				if($(document).scrollTop() > sidebar - 100) {
 					if($(document).scrollTop() > $('.tags').offset().top - 350) {
 						$('.sidebar').css({"position": "fixed", "top": "-250px"});

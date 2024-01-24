@@ -589,10 +589,6 @@
 			let sidebar = $('.sidebar').offset().top;
 
 			$(document).on("scroll", function() {
-				console.log(sidebar + ' sdiebar');
-				console.log($(document).scrollTop()) + ' document';
-				console.log($('.tags').offset().top + ' widget');
-
 				if($(document).scrollTop() > sidebar - 100) {
 					if($(document).scrollTop() > $('.tags').offset().top - 350) {
 						$('.sidebar').css({"position": "fixed", "top": "-250px"});
